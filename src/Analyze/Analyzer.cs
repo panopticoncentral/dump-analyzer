@@ -12,7 +12,7 @@ namespace Analyze
 {
     internal static unsafe class Analyzer
     {
-        private struct View : IDisposable
+        private sealed class View : IDisposable
         {
             private readonly MemoryMappedFile _file;
 
@@ -230,6 +230,5 @@ namespace Analyze
 
             return list;
         }
-
     }
 }
