@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Analyze": {
+      "commandName": "Project",
+      "commandLineArgs": "--path \"C:\\Users\\paulv\\OneDrive - Microsoft\\scale\\dumps\\Solution_007_1057_cache_16.9.P2.dmp\" --force"
+    }
+  }
+}
